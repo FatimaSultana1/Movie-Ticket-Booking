@@ -1,0 +1,132 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;
+    font-weight: 100;
+}
+.navbar {
+    /* width: 100%; */
+    /* display: block; */
+    background-color: black;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+ul {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    /* background-color: black; */
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    box-sizing: border-box;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(229, 83, 103);
+    min-width: 100px;
+    margin: 0px 2rem;
+}
+
+a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: black;
+    background-color: rgb(229, 83, 103);
+    /* border-bottom: 1px solid black; */
+}
+.show-title{
+    padding-left: 50px;
+}
+.image img {
+    /* padding: 0; */
+}
+.image{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 10px;
+    background-color: black;
+    /* box-shadow: 5px 5px 3px rgba(0,0,0,0.3); */
+}
+.images {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    color: white;
+    align-items: center;
+    font-size: large;
+}
+.about-image{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.about-image i{
+    padding: 20px;
+}
+img {
+    padding: 0;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+img:hover{
+    color: rgba(0,0,0,0.7)
+}
+
+.fa-heart{
+    color: rgb(229, 83, 103);
+    font-size: large;
+}
+.fa-circle-chevron-left{
+    color: black;
+    font-size: 60px;
+    cursor: pointer;
+}
+.fa-circle-chevron-right{
+    color: black;
+    font-size: 60px;
+    cursor: pointer;
+}
+.likes{
+    color: white;
+    font-size: small;
+    padding: 10px;
+}
+.button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: large;
+}
+.button:hover{
+    background-color: rgb(229, 83, 103);
+    color: black;
+    cursor: pointer;
+}

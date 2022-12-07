@@ -1,0 +1,151 @@
+:root{
+    --primary_color: rgb(229,83,103);
+}
+
+html{
+    box-sizing: border-box;
+}
+body{
+    margin : 0;
+    background-color: whitesmoke;
+    font-family: "Dosis",sans-serif;
+}
+h2{
+    padding-bottom: 0;
+}
+.payment-page{
+    padding: 30px 20px;
+}
+.contact-details , .payment-options {
+    width: 100%;
+    background-color: var(--primary_color);
+    color: white;
+}
+.contact-details h2{
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 10px;
+}
+.payment-options h2{
+    padding-left: 10px;
+    padding: 10px;
+}
+.contact-details i,.payment-options i{
+
+    padding-right: 10px;
+    
+}
+.show-title{
+    font-family: 'Oswald', sans-serif;
+}
+#contact{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: white;
+}
+.Button{
+    cursor: pointer;
+    height: 40px;
+    width: 170px;
+    border: none;
+    color: white;
+    font-family: 'Oswald';
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--primary_color);
+    border-color: var(--primary_color);
+}
+.Button:hover{
+    background-color: rgb(224, 49, 72);
+    transition: 0.5s;
+    
+}
+#contact input{
+    border-radius: 5px;
+    height: 38px;
+    outline: none;
+    border-color: var(--primary_color);
+}
+.payment-options h2{
+    cursor: pointer;
+}
+.options{
+    background-color: rgb(238, 232, 232);
+    color: black;
+    width: 20%;
+    padding: 0px 0 5px 40px;
+}
+#payment-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.options h3:hover{
+    color: rgba(139, 108, 108,0.8);
+    cursor: pointer;
+}
+#net-banking{
+    width:90%;
+    text-align: center;
+}
+.option-details img{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+.option-details{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+/* .option-details input{
+    margin: 10px 10px 30px;
+} */
+#net-banking input,
+#UPI input,
+#wallet input {
+    margin: 10px 10px 30px;
+}
+#UPI{
+    width:90%;
+    text-align: center;
+}
+
+form input {
+    display: flex;
+    height: 28px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+
+}
+#expiry{
+    display: flex;
+    
+}
+#expiry input{
+    width: 23px;
+    margin: 3px;
+}
+#cvv{
+    margin-left: 35px;
+    width: 35px;
+    /* text-align: center; */
+    margin: 3px auto;
+}
+#expiry-cvv{
+    display: flex;
+}
+
+#card-details {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: linear-gradient(45deg, rgb(173, 203, 214), rgb(218, 194, 197));
+}

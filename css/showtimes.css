@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(229, 83, 103);
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    /* max-width: 1500px; */
+    max-width: 75%;
+    margin: auto;
+}
+
+.RRRheader{
+    background-color: #333;
+}
+
+h1, h3{
+    margin: 0;
+}
+
+.RRRheader h1{
+    padding-top: 2px;
+    font-style: italic;
+    text-shadow: 0 0 5px white;
+    font-size: 60px;
+    margin-left: 80px;    
+}
+.RRRheader h3{
+    font-style: italic;
+    font-size: small;
+    margin-left: 82px;   
+    font-weight:normal; 
+    padding-bottom: 5px;
+}
+
+.likes {
+    color: red;
+}
+
+.rrr img {
+    height: 600px;
+    width: auto;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.showtimes{
+    margin-left: 30px; 
+    padding: 10px;
+    /* margin-left: 45px; */
+}
+
+.btn {
+    /* margin-left: 45px; */
+    height: 35px;
+    width: 7%;
+    background-color: white;
+    border: 1px solid orange;
+    margin-right: 5px;
+    border-radius: 7px;
+}
+
+.btn:not(.book):hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(173, 212, 114);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.book.btn{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 45px;
+    width: 35%;
+    height: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.btn.book:hover {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(229, 83, 103);
+    /* color: white; */
+}
+
+.showtimes p{
+    font-size: 25px;
+    color: black;
+}
