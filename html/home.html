@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title> 
+    <link rel="icon" type="jpg/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/979154e3ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="show-title">
+        <h1>Faneeha Shows</h1>        
+    </div>
+    <div class="images" id="images">
+        <i class="fa-solid fa-circle-chevron-left"></i>
+        <div class="image">
+            <img src="../images/Doctor_Strange.jpg" alt="image">
+            <div class="about-image">
+                <h4>Doctor Strange</h4>
+                <i class="fa fa-heart"><span class="likes">85%</span></i>
+            </div>
+            <button class="button">Book Tickets</button>
+        </div>
+        <div class="image">
+            <img src="../images/Fantastic_Beasts.jpg" alt="image">
+            <div class="about-image">
+                <h4>Fantastic Beast</h4>
+                <i class="fa fa-heart"><span class="likes">80%</span></i>
+            </div>
+            <button class="button">Book Tickets</button>
+        </div>
+        <div class="image">
+            <img src="../images/Spiderman.jpg" alt="image">
+            <div class="about-image">
+                <h4>Spiderman</h4>
+                <i class="fa fa-heart"><span class="likes">95%</span></i>
+            </div>
+            <button class="button">Book Tickets</button>
+           
+        </div>
+        <div class="image">
+            <img src="../images/RRR.jpg" alt="image">
+            <div class="about-image">
+                <h4>RRR</h4>
+                <i class="fa fa-heart"><span class="likes">90%</span></i>
+            </div>
+            <button class="button">Book Tickets</button>
+            
+        </div>
+        <i class="fa-solid fa-circle-chevron-right"></i>  
+    </div>
+    <script>
+        var button = document.getElementsByClassName("button")[3];
+        button.addEventListener('click', redirect);
+
+        function redirect() {
+            document.location.href = "../html/showtimes.html";
+        }
+    </script>
+</body>
+</html>

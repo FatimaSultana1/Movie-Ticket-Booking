@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" type="jpg/png" href="../images/favicon.png">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/979154e3ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="signuph1">Login
+            <i class="fa fa-lock"></i>
+        </h1>
+        <div class="smaller_container">
+            <form name="login-form" action="../php/login.php" method="post">
+                <label for="" name="">Email Address</label>
+                <input class="field" type="email" placeholder="Email Address" name="email" required><br>
+                <label for="" name="">Password</label>
+                <input class="field" type="password" placeholder="Password" name="password" required><br>
+                <input id="submit" type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            document.querySelector("input").focus();
+        }
+
+        function sub() {
+            var inputs = document.querySelectorAll("input");
+            var email_address = inputs[0].value;
+            var password = inputs[1].value;
+            console.log("Email_Address: " + email_address);
+            console.log("Password: " + password);
+        }
+
+    </script>
+</body>
+</html>
